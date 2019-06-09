@@ -1,0 +1,11 @@
+C:\Users\Akshay\Documents\Visual Studio 2017\Projects\NavdurgaHospital\BLNavdurga\bin\Release\BLNavdurga.dll
+C:\Users\Akshay\Documents\Visual Studio 2017\Projects\NavdurgaHospital\BLNavdurga\bin\Release\BLNavdurga.pdb
+C:\Users\Akshay\Documents\Visual Studio 2017\Projects\NavdurgaHospital\BLNavdurga\bin\Release\DLNavdurga.dll
+C:\Users\Akshay\Documents\Visual Studio 2017\Projects\NavdurgaHospital\BLNavdurga\bin\Release\MySql.Data.dll
+C:\Users\Akshay\Documents\Visual Studio 2017\Projects\NavdurgaHospital\BLNavdurga\bin\Release\DLNavdurga.pdb
+C:\Users\Akshay\Documents\Visual Studio 2017\Projects\NavdurgaHospital\BLNavdurga\bin\Release\MySql.Data.xml
+C:\Users\Akshay\Documents\Visual Studio 2017\Projects\NavdurgaHospital\BLNavdurga\obj\Release\BLNavdurga.csprojResolveAssemblyReference.cache
+C:\Users\Akshay\Documents\Visual Studio 2017\Projects\NavdurgaHospital\BLNavdurga\obj\Release\BLNavdurga.csproj.CoreCompileInputs.cache
+C:\Users\Akshay\Documents\Visual Studio 2017\Projects\NavdurgaHospital\BLNavdurga\obj\Release\BLNavdurga.dll
+C:\Users\Akshay\Documents\Visual Studio 2017\Projects\NavdurgaHospital\BLNavdurga\obj\Release\BLNavdurga.pdb
+C:\Users\Akshay\documents\visual studio 2017\Projects\NavdurgaHospital\BLNavdurga\obj\Release\BLNavdurga.csproj.CopyComplete

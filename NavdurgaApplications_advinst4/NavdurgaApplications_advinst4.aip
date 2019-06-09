@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="14.5.2" version="14.5.2" Modules="professional" RootPath="." Language="en" Id="{F6BAB2AE-9814-43A5-B5C0-9D08D11FCCAE}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1" MultiBuildValue="Build:#Build_1:"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPCONTACT" Value="Hewlett-Packard"/>
+    <ROW Property="AspNetVersion" Value="4.0.30319.0"/>
+    <ROW Property="Manufacturer" Value="Hewlett-Packard"/>
+    <ROW Property="ProductCode" Value="1033:{50F5F98E-2416-46CC-9EB2-DE4AFCFFF955} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="NavdurgaApplications"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{E507062C-EE49-4D89-88BA-715F7CBED33D}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="Build:Windows 9x/ME#Build_1:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="Build:Windows 9x/ME#Build_1:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="Build:Windows NT 4.0#Build_1:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="Build:Windows NT 4.0#Build_1:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="Build:Windows 2000#Build_1:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="Build:Windows 2000#Build_1:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="Build:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86#Build_1:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="Build:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86#Build_1:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="C__83E931752C4B4853885B50426DCF_Dir" Directory_Parent="APPDIR" DefaultDir=".:C__83E~1|C__83E931752C4B4853885B50426DCFEFFB"/>
+    <ROW Directory="C__BA5FC920AE8A46F49249CA044B43_Dir" Directory_Parent="APPDIR" DefaultDir=".:C__BA5~1|C__BA5FC920AE8A46F49249CA044B436548"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="ProgramMenuFolder" Directory_Parent="TARGETDIR" DefaultDir="PROGRA~1|ProgramMenuFolder" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="C__02C47D419C2946E984E45F6C53DCB45F" ComponentId="{B858CE73-7D67-42B7-847D-D4FAC7902E09}" Directory_="APPDIR" Attributes="0" KeyPath="_02C47D419C2946E984E45F6C53DCB45F"/>
+    <ROW Component="C__0345601E19D342E69AC32E93C272E02A" ComponentId="{49BA1AFE-7593-42FD-83DE-1FDFFA1E480D}" Directory_="APPDIR" Attributes="0" KeyPath="_0345601E19D342E69AC32E93C272E02A"/>
+    <ROW Component="C__05FBE8A1464AE8A37A7CAC83F68DAD3D" ComponentId="{CDE2B57B-C78A-480C-9FDD-8D4942A29CA3}" Directory_="APPDIR" Attributes="0" KeyPath="_05FBE8A1464AE8A37A7CAC83F68DAD3D"/>
+    <ROW Component="C__0DE8C64978CBD13A08F688C29473024E" ComponentId="{084648BD-A4CE-4080-9C92-F81C07DDFD48}" Directory_="APPDIR" Attributes="0" KeyPath="_0DE8C64978CBD13A08F688C29473024E"/>
+    <ROW Component="C__2A6890A01EAB52DF5BC28036C3D5002E" ComponentId="{070C8FD4-F004-4AAB-9629-933EBB43E0EF}" Directory_="APPDIR" Attributes="0" KeyPath="_2A6890A01EAB52DF5BC28036C3D5002E"/>
+    <ROW Component="C__2E1E5342B5B4CB1A65B165BFD7990FBA" ComponentId="{23A277B2-60C3-4351-BC9E-5B2DD4E0B668}" Directory_="APPDIR" Attributes="0" KeyPath="_2E1E5342B5B4CB1A65B165BFD7990FBA"/>
+    <ROW Component="C__2E3A94D90181BC678F879EE6AA6C0625" ComponentId="{B1FEBFA8-BB4B-4F99-A5BF-D68D54A0A2BF}" Directory_="APPDIR" Attributes="0" KeyPath="_2E3A94D90181BC678F879EE6AA6C0625"/>
+    <ROW Component="C__4253431B0B4565B403AE8088FF63B08D" ComponentId="{3961FAF4-46BB-48BE-A1E5-3932F9831915}" Directory_="APPDIR" Attributes="0" KeyPath="_4253431B0B4565B403AE8088FF63B08D"/>
+    <ROW Component="C__447D48B0821F4AACB1F14C062646A13F" ComponentId="{189BC709-3E42-4691-BB89-39D676831878}" Directory_="APPDIR" Attributes="0" KeyPath="_447D48B0821F4AACB1F14C062646A13F"/>
+    <ROW Component="C__47FA825DCD26C7B02EB8CAD3FD548EA6" ComponentId="{69C20C0F-818E-4AC1-B536-44C7381CB57A}" Directory_="APPDIR" Attributes="0" KeyPath="_47FA825DCD26C7B02EB8CAD3FD548EA6"/>
+    <ROW Component="C__5036EB75A70C22FC84F9BB72F6093576" ComponentId="{25EFEE5B-10B9-4BC6-95BC-761C9ED7806A}" Directory_="APPDIR" Attributes="0" KeyPath="_5036EB75A70C22FC84F9BB72F6093576"/>
+    <ROW Component="C__5CCAE9DCDE36CFFECF01C6FB68C5FA13" ComponentId="{9C225A7B-3C3F-4EA3-A1CF-E53AABF1F7A3}" Directory_="APPDIR" Attributes="0" KeyPath="_5CCAE9DCDE36CFFECF01C6FB68C5FA13"/>
+    <ROW Component="C__632DC9A65825F0399F495103ACB54037" ComponentId="{44A79FF0-1A4A-4518-940C-FA018E47ACD8}" Directory_="APPDIR" Attributes="0" KeyPath="_632DC9A65825F0399F495103ACB54037"/>
+    <ROW Component="C__82D3C2332D4ED8088DE44DD5DB63552D" ComponentId="{AC03AAE1-9D77-4B67-ACB9-87E089901B4B}" Directory_="APPDIR" Attributes="0" KeyPath="_82D3C2332D4ED8088DE44DD5DB63552D"/>
+    <ROW Component="C__83E931752C4B4853885B50426DCFEFFB" ComponentId="{5DDD667C-DBB0-452D-90A1-5CB16B8316B9}" Directory_="C__83E931752C4B4853885B50426DCF_Dir" Attributes="0" KeyPath="_83E931752C4B4853885B50426DCFEFFB"/>
+    <ROW Component="C__895D61E1F967EA81F9A0D1B800CA77F6" ComponentId="{B4CB2070-2922-40A9-8223-5EE2C6A57273}" Directory_="APPDIR" Attributes="0" KeyPath="_895D61E1F967EA81F9A0D1B800CA77F6"/>
+    <ROW Component="C__92E892CAD2ED55E30A86559BAF67759C" ComponentId="{2A9A4F68-DFFB-4FB0-BC29-6A3C5013CF84}" Directory_="APPDIR" Attributes="0" KeyPath="_92E892CAD2ED55E30A86559BAF67759C"/>
+    <ROW Component="C__A17F7054A5679DA5E220FB9D89D612A6" ComponentId="{7A7E280D-CDC7-4B9E-A25E-E81AD39398C7}" Directory_="APPDIR" Attributes="0" KeyPath="_A17F7054A5679DA5E220FB9D89D612A6"/>
+    <ROW Component="C__A4F7D5076A8BDF83CEB279FAC5CE085B" ComponentId="{3E8D9693-7455-424C-AE9E-FF26EC9C3566}" Directory_="APPDIR" Attributes="0" KeyPath="_A4F7D5076A8BDF83CEB279FAC5CE085B"/>
+    <ROW Component="C__B7C3679508AF9FF4E7C64BC97CF545B8" ComponentId="{3FDB282A-2692-42CA-9E16-95D7AF382104}" Directory_="APPDIR" Attributes="0" KeyPath="_B7C3679508AF9FF4E7C64BC97CF545B8"/>
+    <ROW Component="C__BA5FC920AE8A46F49249CA044B436548" ComponentId="{E8F25BAB-5DED-4FAF-8815-415CC2F8B0E6}" Directory_="C__BA5FC920AE8A46F49249CA044B43_Dir" Attributes="0" KeyPath="_BA5FC920AE8A46F49249CA044B436548"/>
+    <ROW Component="C__CAF6BD46FC66471CA24073BC4DEC47D8" ComponentId="{9F5908C3-F7D9-453B-87DE-81C32BED9063}" Directory_="APPDIR" Attributes="0" KeyPath="_CAF6BD46FC66471CA24073BC4DEC47D8"/>
+    <ROW Component="C__CE0DA6810024F6FF13F3F6DB7390CA5F" ComponentId="{266AAAA8-F561-459A-944C-CEE142BB3609}" Directory_="APPDIR" Attributes="0" KeyPath="_CE0DA6810024F6FF13F3F6DB7390CA5F"/>
+    <ROW Component="ProductInformation" ComponentId="{DD47ECC3-7BF2-4A75-A047-79DC583F7596}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="DefaultFeature" Title="DefaultFeature" Display="2" Level="1" Directory_="APPDIR" Attributes="0" Components="C__02C47D419C2946E984E45F6C53DCB45F C__0345601E19D342E69AC32E93C272E02A C__05FBE8A1464AE8A37A7CAC83F68DAD3D C__0DE8C64978CBD13A08F688C29473024E C__2A6890A01EAB52DF5BC28036C3D5002E C__2E1E5342B5B4CB1A65B165BFD7990FBA C__2E3A94D90181BC678F879EE6AA6C0625 C__4253431B0B4565B403AE8088FF63B08D C__447D48B0821F4AACB1F14C062646A13F C__47FA825DCD26C7B02EB8CAD3FD548EA6 C__5036EB75A70C22FC84F9BB72F6093576 C__5CCAE9DCDE36CFFECF01C6FB68C5FA13 C__632DC9A65825F0399F495103ACB54037 C__82D3C2332D4ED8088DE44DD5DB63552D C__83E931752C4B4853885B50426DCFEFFB C__895D61E1F967EA81F9A0D1B800CA77F6 C__92E892CAD2ED55E30A86559BAF67759C C__A17F7054A5679DA5E220FB9D89D612A6 C__A4F7D5076A8BDF83CEB279FAC5CE085B C__B7C3679508AF9FF4E7C64BC97CF545B8 C__BA5FC920AE8A46F49249CA044B436548 C__CAF6BD46FC66471CA24073BC4DEC47D8 C__CE0DA6810024F6FF13F3F6DB7390CA5F"/>
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="ProductInformation"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="_02C47D419C2946E984E45F6C53DCB45F" Component_="C__02C47D419C2946E984E45F6C53DCB45F" FileName="MYSQLD~1.DLL|MySql.Data.dll" Attributes="512" SourcePath="MySql.Data.dll" SelfReg="false" NextFile="_05FBE8A1464AE8A37A7CAC83F68DAD3D"/>
+    <ROW File="_0345601E19D342E69AC32E93C272E02A" Component_="C__0345601E19D342E69AC32E93C272E02A" FileName="NAVDUR~1.EXE|NavdurgaHospital.exe" Attributes="512" SourcePath="..\NavdurgaHospital\obj\Debug\NavdurgaHospital.exe" SelfReg="false" NextFile="_447D48B0821F4AACB1F14C062646A13F"/>
+    <ROW File="_05FBE8A1464AE8A37A7CAC83F68DAD3D" Component_="C__05FBE8A1464AE8A37A7CAC83F68DAD3D" FileName="FLASHC~1.DLL|FlashControlV71.dll" Attributes="512" SourcePath="FlashControlV71.dll" SelfReg="false" NextFile="_0DE8C64978CBD13A08F688C29473024E"/>
+    <ROW File="_0DE8C64978CBD13A08F688C29473024E" Component_="C__0DE8C64978CBD13A08F688C29473024E" FileName="MATERI~1.DLL|MaterialSkin.dll" Attributes="512" SourcePath="MaterialSkin.dll" SelfReg="false" NextFile="_2A6890A01EAB52DF5BC28036C3D5002E"/>
+    <ROW File="_2A6890A01EAB52DF5BC28036C3D5002E" Component_="C__2A6890A01EAB52DF5BC28036C3D5002E" FileName="Flash.ocx" Attributes="512" SourcePath="Flash.ocx" SelfReg="false" NextFile="_2E1E5342B5B4CB1A65B165BFD7990FBA"/>
+    <ROW File="_2E1E5342B5B4CB1A65B165BFD7990FBA" Component_="C__2E1E5342B5B4CB1A65B165BFD7990FBA" FileName="BLNAVD~1.DLL|BLNavdurga.dll" Attributes="512" SourcePath="BLNavdurga.dll" SelfReg="false" NextFile="_2E3A94D90181BC678F879EE6AA6C0625"/>
+    <ROW File="_2E3A94D90181BC678F879EE6AA6C0625" Component_="C__2E3A94D90181BC678F879EE6AA6C0625" FileName="SYSTEM~1.DLL|System.Net.Http.dll" Attributes="512" SourcePath="System.Net.Http.dll" SelfReg="false" NextFile="_4253431B0B4565B403AE8088FF63B08D"/>
+    <ROW File="_4253431B0B4565B403AE8088FF63B08D" Component_="C__4253431B0B4565B403AE8088FF63B08D" FileName="MYSQLF~1.DLL|MySql.Fabric.Plugin.dll" Attributes="512" SourcePath="MySql.Fabric.Plugin.dll" SelfReg="false" NextFile="_47FA825DCD26C7B02EB8CAD3FD548EA6"/>
+    <ROW File="_447D48B0821F4AACB1F14C062646A13F" Component_="C__447D48B0821F4AACB1F14C062646A13F" FileName="unknown" Attributes="512" SourcePath="unknown" SelfReg="false" NextFile="_83E931752C4B4853885B50426DCFEFFB"/>
+    <ROW File="_47FA825DCD26C7B02EB8CAD3FD548EA6" Component_="C__47FA825DCD26C7B02EB8CAD3FD548EA6" FileName="stdole.dll" Attributes="512" SourcePath="stdole.dll" SelfReg="false" NextFile="_5036EB75A70C22FC84F9BB72F6093576"/>
+    <ROW File="_5036EB75A70C22FC84F9BB72F6093576" Component_="C__5036EB75A70C22FC84F9BB72F6093576" FileName="log4net.dll" Attributes="512" SourcePath="log4net.dll" SelfReg="false" NextFile="_5CCAE9DCDE36CFFECF01C6FB68C5FA13"/>
+    <ROW File="_5CCAE9DCDE36CFFECF01C6FB68C5FA13" Component_="C__5CCAE9DCDE36CFFECF01C6FB68C5FA13" FileName="MYSQLD~2.DLL|MySql.Data.Entity.EF6.dll" Attributes="512" SourcePath="MySql.Data.Entity.EF6.dll" SelfReg="false" NextFile="_632DC9A65825F0399F495103ACB54037"/>
+    <ROW File="_632DC9A65825F0399F495103ACB54037" Component_="C__632DC9A65825F0399F495103ACB54037" FileName="DLNAVD~1.DLL|DLNavdurga.dll" Attributes="512" SourcePath="DLNavdurga.dll" SelfReg="false" NextFile="_82D3C2332D4ED8088DE44DD5DB63552D"/>
+    <ROW File="_82D3C2332D4ED8088DE44DD5DB63552D" Component_="C__82D3C2332D4ED8088DE44DD5DB63552D" FileName="CRYSTA~1.DLL|CrystalDecisions.ReportAppServer.Prompting.dll" Attributes="512" SourcePath="CrystalDecisions.ReportAppServer.Prompting.dll" SelfReg="false" NextFile="_895D61E1F967EA81F9A0D1B800CA77F6"/>
+    <ROW File="_83E931752C4B4853885B50426DCFEFFB" Component_="C__83E931752C4B4853885B50426DCFEFFB" FileName="unknown" Attributes="512" SourcePath="unknown" SelfReg="false" NextFile="_BA5FC920AE8A46F49249CA044B436548"/>
+    <ROW File="_895D61E1F967EA81F9A0D1B800CA77F6" Component_="C__895D61E1F967EA81F9A0D1B800CA77F6" FileName="METROF~1.DLL|MetroFramework.Fonts.dll" Attributes="512" SourcePath="MetroFramework.Fonts.dll" SelfReg="false" NextFile="_92E892CAD2ED55E30A86559BAF67759C"/>
+    <ROW File="_92E892CAD2ED55E30A86559BAF67759C" Component_="C__92E892CAD2ED55E30A86559BAF67759C" FileName="SHOCKW~1.DLL|ShockwaveFlashObjects.dll" Attributes="512" SourcePath="ShockwaveFlashObjects.dll" SelfReg="false" NextFile="_A17F7054A5679DA5E220FB9D89D612A6"/>
+    <ROW File="_A17F7054A5679DA5E220FB9D89D612A6" Component_="C__A17F7054A5679DA5E220FB9D89D612A6" FileName="MYSQLD~3.DLL|MySql.Data.Entity.EF5.dll" Attributes="512" SourcePath="MySql.Data.Entity.EF5.dll" SelfReg="false" NextFile="_A4F7D5076A8BDF83CEB279FAC5CE085B"/>
+    <ROW File="_A4F7D5076A8BDF83CEB279FAC5CE085B" Component_="C__A4F7D5076A8BDF83CEB279FAC5CE085B" FileName="METROF~2.DLL|MetroFramework.dll" Attributes="512" SourcePath="MetroFramework.dll" SelfReg="false" NextFile="_B7C3679508AF9FF4E7C64BC97CF545B8"/>
+    <ROW File="_B7C3679508AF9FF4E7C64BC97CF545B8" Component_="C__B7C3679508AF9FF4E7C64BC97CF545B8" FileName="METROF~3.DLL|MetroFramework.Design.dll" Attributes="512" SourcePath="MetroFramework.Design.dll" SelfReg="false" NextFile="_CAF6BD46FC66471CA24073BC4DEC47D8"/>
+    <ROW File="_BA5FC920AE8A46F49249CA044B436548" Component_="C__BA5FC920AE8A46F49249CA044B436548" FileName="unknown" Attributes="512" SourcePath="unknown" SelfReg="false"/>
+    <ROW File="_CAF6BD46FC66471CA24073BC4DEC47D8" Component_="C__CAF6BD46FC66471CA24073BC4DEC47D8" FileName="Navdurga.ico" Attributes="512" SourcePath="..\..\..\..\..\Desktop\Hospital Management\Images\Navdurga.ico" SelfReg="false" NextFile="_CE0DA6810024F6FF13F3F6DB7390CA5F"/>
+    <ROW File="_CE0DA6810024F6FF13F3F6DB7390CA5F" Component_="C__CE0DA6810024F6FF13F3F6DB7390CA5F" FileName="MYSQLD~4.DLL|MySql.Data.Entity.dll" Attributes="512" SourcePath="MySql.Data.Entity.dll" SelfReg="false" NextFile="_0345601E19D342E69AC32E93C272E02A"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="Build" BuildName="Debug" BuildOrder="1" BuildType="0" PackageFolder="Debug" PackageFileName="NavdurgaApplications" Languages="en" InstallationType="4" PackageType="1" UseLargeSchema="true" ExeName="NavdurgaApplications"/>
+    <ROW BuildKey="Build_1" BuildName="Release" BuildOrder="2" BuildType="0" PackageFolder="Release" PackageFileName="NavdurgaApplications" Languages="en" InstallationType="4" PackageType="1" UseLargeSchema="true" ExeName="NavdurgaApplications"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAssemblyComponent">
+    <ROW Component_="C__02C47D419C2946E984E45F6C53DCB45F" Feature_="DefaultFeature" File_Application="_02C47D419C2946E984E45F6C53DCB45F" Attributes="0"/>
+    <ROW Component_="C__05FBE8A1464AE8A37A7CAC83F68DAD3D" Feature_="DefaultFeature" File_Application="_05FBE8A1464AE8A37A7CAC83F68DAD3D" Attributes="0"/>
+    <ROW Component_="C__0DE8C64978CBD13A08F688C29473024E" Feature_="DefaultFeature" File_Application="_0DE8C64978CBD13A08F688C29473024E" Attributes="0"/>
+    <ROW Component_="C__2E1E5342B5B4CB1A65B165BFD7990FBA" Feature_="DefaultFeature" File_Application="_2E1E5342B5B4CB1A65B165BFD7990FBA" Attributes="0"/>
+    <ROW Component_="C__2E3A94D90181BC678F879EE6AA6C0625" Feature_="DefaultFeature" File_Application="_2E3A94D90181BC678F879EE6AA6C0625" Attributes="0"/>
+    <ROW Component_="C__4253431B0B4565B403AE8088FF63B08D" Feature_="DefaultFeature" File_Application="_4253431B0B4565B403AE8088FF63B08D" Attributes="0"/>
+    <ROW Component_="C__47FA825DCD26C7B02EB8CAD3FD548EA6" Feature_="DefaultFeature" File_Application="_47FA825DCD26C7B02EB8CAD3FD548EA6" Attributes="0"/>
+    <ROW Component_="C__5036EB75A70C22FC84F9BB72F6093576" Feature_="DefaultFeature" File_Application="_5036EB75A70C22FC84F9BB72F6093576" Attributes="0"/>
+    <ROW Component_="C__5CCAE9DCDE36CFFECF01C6FB68C5FA13" Feature_="DefaultFeature" File_Application="_5CCAE9DCDE36CFFECF01C6FB68C5FA13" Attributes="0"/>
+    <ROW Component_="C__632DC9A65825F0399F495103ACB54037" Feature_="DefaultFeature" File_Application="_632DC9A65825F0399F495103ACB54037" Attributes="0"/>
+    <ROW Component_="C__82D3C2332D4ED8088DE44DD5DB63552D" Feature_="DefaultFeature" File_Application="_82D3C2332D4ED8088DE44DD5DB63552D" Attributes="0"/>
+    <ROW Component_="C__895D61E1F967EA81F9A0D1B800CA77F6" Feature_="DefaultFeature" File_Application="_895D61E1F967EA81F9A0D1B800CA77F6" Attributes="0"/>
+    <ROW Component_="C__92E892CAD2ED55E30A86559BAF67759C" Feature_="DefaultFeature" File_Application="_92E892CAD2ED55E30A86559BAF67759C" Attributes="0"/>
+    <ROW Component_="C__A17F7054A5679DA5E220FB9D89D612A6" Feature_="DefaultFeature" File_Application="_A17F7054A5679DA5E220FB9D89D612A6" Attributes="0"/>
+    <ROW Component_="C__A4F7D5076A8BDF83CEB279FAC5CE085B" Feature_="DefaultFeature" File_Application="_A4F7D5076A8BDF83CEB279FAC5CE085B" Attributes="0"/>
+    <ROW Component_="C__B7C3679508AF9FF4E7C64BC97CF545B8" Feature_="DefaultFeature" File_Application="_B7C3679508AF9FF4E7C64BC97CF545B8" Attributes="0"/>
+    <ROW Component_="C__CE0DA6810024F6FF13F3F6DB7390CA5F" Feature_="DefaultFeature" File_Application="_CE0DA6810024F6FF13F3F6DB7390CA5F" Attributes="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAssemblyNameComponent">
+    <ROW Component_="C__02C47D419C2946E984E45F6C53DCB45F" Name="Name" Value="MySql.Data" Sync="false"/>
+    <ROW Component_="C__02C47D419C2946E984E45F6C53DCB45F" Name="Version" Value="6.9.9.0" Sync="false"/>
+    <ROW Component_="C__02C47D419C2946E984E45F6C53DCB45F" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__02C47D419C2946E984E45F6C53DCB45F" Name="PublicKeyToken" Value="c5687fc88969c44d" Sync="false"/>
+    <ROW Component_="C__02C47D419C2946E984E45F6C53DCB45F" Name="processorArchitecture" Value="MSIL" Sync="false"/>
+    <ROW Component_="C__05FBE8A1464AE8A37A7CAC83F68DAD3D" Name="Name" Value="FlashControlV71" Sync="false"/>
+    <ROW Component_="C__05FBE8A1464AE8A37A7CAC83F68DAD3D" Name="Version" Value="1.0.3187.32366" Sync="false"/>
+    <ROW Component_="C__05FBE8A1464AE8A37A7CAC83F68DAD3D" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__05FBE8A1464AE8A37A7CAC83F68DAD3D" Name="PublicKeyToken" Value="692fbea5521e1304" Sync="false"/>
+    <ROW Component_="C__0DE8C64978CBD13A08F688C29473024E" Name="Name" Value="MaterialSkin" Sync="false"/>
+    <ROW Component_="C__0DE8C64978CBD13A08F688C29473024E" Name="Version" Value="1.0.0.0" Sync="false"/>
+    <ROW Component_="C__0DE8C64978CBD13A08F688C29473024E" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__0DE8C64978CBD13A08F688C29473024E" Name="processorArchitecture" Value="MSIL" Sync="false"/>
+    <ROW Component_="C__2E1E5342B5B4CB1A65B165BFD7990FBA" Name="Name" Value="BLNavdurga" Sync="false"/>
+    <ROW Component_="C__2E1E5342B5B4CB1A65B165BFD7990FBA" Name="Version" Value="1.0.0.0" Sync="false"/>
+    <ROW Component_="C__2E1E5342B5B4CB1A65B165BFD7990FBA" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__2E1E5342B5B4CB1A65B165BFD7990FBA" Name="processorArchitecture" Value="MSIL" Sync="false"/>
+    <ROW Component_="C__2E3A94D90181BC678F879EE6AA6C0625" Name="Name" Value="System.Net.Http" Sync="false"/>
+    <ROW Component_="C__2E3A94D90181BC678F879EE6AA6C0625" Name="Version" Value="4.0.0.0" Sync="false"/>
+    <ROW Component_="C__2E3A94D90181BC678F879EE6AA6C0625" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__2E3A94D90181BC678F879EE6AA6C0625" Name="PublicKeyToken" Value="b03f5f7f11d50a3a" Sync="false"/>
+    <ROW Component_="C__4253431B0B4565B403AE8088FF63B08D" Name="Name" Value="MySql.Fabric.Plugin" Sync="false"/>
+    <ROW Component_="C__4253431B0B4565B403AE8088FF63B08D" Name="Version" Value="6.9.9.0" Sync="false"/>
+    <ROW Component_="C__4253431B0B4565B403AE8088FF63B08D" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__4253431B0B4565B403AE8088FF63B08D" Name="PublicKeyToken" Value="c5687fc88969c44d" Sync="false"/>
+    <ROW Component_="C__4253431B0B4565B403AE8088FF63B08D" Name="processorArchitecture" Value="MSIL" Sync="false"/>
+    <ROW Component_="C__47FA825DCD26C7B02EB8CAD3FD548EA6" Name="Name" Value="stdole" Sync="false"/>
+    <ROW Component_="C__47FA825DCD26C7B02EB8CAD3FD548EA6" Name="Version" Value="7.0.3300.0" Sync="false"/>
+    <ROW Component_="C__47FA825DCD26C7B02EB8CAD3FD548EA6" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__47FA825DCD26C7B02EB8CAD3FD548EA6" Name="PublicKeyToken" Value="b03f5f7f11d50a3a" Sync="false"/>
+    <ROW Component_="C__5036EB75A70C22FC84F9BB72F6093576" Name="Name" Value="log4net" Sync="false"/>
+    <ROW Component_="C__5036EB75A70C22FC84F9BB72F6093576" Name="Version" Value="1.2.10.0" Sync="false"/>
+    <ROW Component_="C__5036EB75A70C22FC84F9BB72F6093576" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__5036EB75A70C22FC84F9BB72F6093576" Name="PublicKeyToken" Value="692fbea5521e1304" Sync="false"/>
+    <ROW Component_="C__5036EB75A70C22FC84F9BB72F6093576" Name="processorArchitecture" Value="AMD64" Sync="false"/>
+    <ROW Component_="C__5CCAE9DCDE36CFFECF01C6FB68C5FA13" Name="Name" Value="MySql.Data.Entity.EF6" Sync="false"/>
+    <ROW Component_="C__5CCAE9DCDE36CFFECF01C6FB68C5FA13" Name="Version" Value="6.9.9.0" Sync="false"/>
+    <ROW Component_="C__5CCAE9DCDE36CFFECF01C6FB68C5FA13" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__5CCAE9DCDE36CFFECF01C6FB68C5FA13" Name="PublicKeyToken" Value="c5687fc88969c44d" Sync="false"/>
+    <ROW Component_="C__5CCAE9DCDE36CFFECF01C6FB68C5FA13" Name="processorArchitecture" Value="MSIL" Sync="false"/>
+    <ROW Component_="C__632DC9A65825F0399F495103ACB54037" Name="Name" Value="DLNavdurga" Sync="false"/>
+    <ROW Component_="C__632DC9A65825F0399F495103ACB54037" Name="Version" Value="1.0.0.0" Sync="false"/>
+    <ROW Component_="C__632DC9A65825F0399F495103ACB54037" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__632DC9A65825F0399F495103ACB54037" Name="processorArchitecture" Value="MSIL" Sync="false"/>
+    <ROW Component_="C__82D3C2332D4ED8088DE44DD5DB63552D" Name="Name" Value="CrystalDecisions.ReportAppServer.Prompting" Sync="false"/>
+    <ROW Component_="C__82D3C2332D4ED8088DE44DD5DB63552D" Name="Version" Value="13.0.3500.0" Sync="false"/>
+    <ROW Component_="C__82D3C2332D4ED8088DE44DD5DB63552D" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__82D3C2332D4ED8088DE44DD5DB63552D" Name="PublicKeyToken" Value="692fbea5521e1304" Sync="false"/>
+    <ROW Component_="C__82D3C2332D4ED8088DE44DD5DB63552D" Name="processorArchitecture" Value="MSIL" Sync="false"/>
+    <ROW Component_="C__895D61E1F967EA81F9A0D1B800CA77F6" Name="Name" Value="MetroFramework.Fonts" Sync="false"/>
+    <ROW Component_="C__895D61E1F967EA81F9A0D1B800CA77F6" Name="Version" Value="1.4.0.0" Sync="false"/>
+    <ROW Component_="C__895D61E1F967EA81F9A0D1B800CA77F6" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__895D61E1F967EA81F9A0D1B800CA77F6" Name="PublicKeyToken" Value="5f91a84759bf584a" Sync="false"/>
+    <ROW Component_="C__895D61E1F967EA81F9A0D1B800CA77F6" Name="processorArchitecture" Value="MSIL" Sync="false"/>
+    <ROW Component_="C__92E892CAD2ED55E30A86559BAF67759C" Name="Name" Value="ShockwaveFlashObjects" Sync="false"/>
+    <ROW Component_="C__92E892CAD2ED55E30A86559BAF67759C" Name="Version" Value="1.0.0.0" Sync="false"/>
+    <ROW Component_="C__92E892CAD2ED55E30A86559BAF67759C" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__92E892CAD2ED55E30A86559BAF67759C" Name="PublicKeyToken" Value="692fbea5521e1304" Sync="false"/>
+    <ROW Component_="C__A17F7054A5679DA5E220FB9D89D612A6" Name="Name" Value="MySql.Data.Entity.EF5" Sync="false"/>
+    <ROW Component_="C__A17F7054A5679DA5E220FB9D89D612A6" Name="Version" Value="6.9.9.0" Sync="false"/>
+    <ROW Component_="C__A17F7054A5679DA5E220FB9D89D612A6" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__A17F7054A5679DA5E220FB9D89D612A6" Name="PublicKeyToken" Value="c5687fc88969c44d" Sync="false"/>
+    <ROW Component_="C__A17F7054A5679DA5E220FB9D89D612A6" Name="processorArchitecture" Value="MSIL" Sync="false"/>
+    <ROW Component_="C__A4F7D5076A8BDF83CEB279FAC5CE085B" Name="Name" Value="MetroFramework" Sync="false"/>
+    <ROW Component_="C__A4F7D5076A8BDF83CEB279FAC5CE085B" Name="Version" Value="1.4.0.0" Sync="false"/>
+    <ROW Component_="C__A4F7D5076A8BDF83CEB279FAC5CE085B" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__A4F7D5076A8BDF83CEB279FAC5CE085B" Name="PublicKeyToken" Value="5f91a84759bf584a" Sync="false"/>
+    <ROW Component_="C__A4F7D5076A8BDF83CEB279FAC5CE085B" Name="processorArchitecture" Value="MSIL" Sync="false"/>
+    <ROW Component_="C__B7C3679508AF9FF4E7C64BC97CF545B8" Name="Name" Value="MetroFramework.Design" Sync="false"/>
+    <ROW Component_="C__B7C3679508AF9FF4E7C64BC97CF545B8" Name="Version" Value="1.4.0.0" Sync="false"/>
+    <ROW Component_="C__B7C3679508AF9FF4E7C64BC97CF545B8" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__B7C3679508AF9FF4E7C64BC97CF545B8" Name="PublicKeyToken" Value="5f91a84759bf584a" Sync="false"/>
+    <ROW Component_="C__B7C3679508AF9FF4E7C64BC97CF545B8" Name="processorArchitecture" Value="MSIL" Sync="false"/>
+    <ROW Component_="C__CE0DA6810024F6FF13F3F6DB7390CA5F" Name="Name" Value="MySql.Data.Entity" Sync="false"/>
+    <ROW Component_="C__CE0DA6810024F6FF13F3F6DB7390CA5F" Name="Version" Value="6.9.8.0" Sync="false"/>
+    <ROW Component_="C__CE0DA6810024F6FF13F3F6DB7390CA5F" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__CE0DA6810024F6FF13F3F6DB7390CA5F" Name="PublicKeyToken" Value="c5687fc88969c44d" Sync="false"/>
+    <ROW Component_="C__CE0DA6810024F6FF13F3F6DB7390CA5F" Name="processorArchitecture" Value="MSIL" Sync="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="_CAF6BD46FC66471CA24073BC4DEC47D8.exe" SourcePath="..\..\..\..\..\Desktop\Hospital Management\Images\Navdurga.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="Build;Build_1"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="Build;Build_1"/>
+    <ROW Condition="(VersionNT64 OR ((VersionNT &lt;&gt; 501) OR (ServicePackLevel = 3))) AND ((VersionNT &lt;&gt; 502) OR (ServicePackLevel = 2))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="Build;Build_1"/>
+    <ROW Condition="SETUPEXEDIR OR (REMOVE=&quot;ALL&quot;)" Description="This package can only be run from a bootstrapper." DescriptionLocId="AI.LaunchCondition.RequireBootstrapper" IsPredefined="true" Builds="Build;Build_1"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="Build;Build_1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="_4A40A163921349ACA80F1268B21ED7E9" Directory_="ProgramMenuFolder" Name="NAVDUR~1|Navdurga Software" Component_="C__0345601E19D342E69AC32E93C272E02A" Target="[#_0345601E19D342E69AC32E93C272E02A]" Hotkey="0" Icon_="_CAF6BD46FC66471CA24073BC4DEC47D8.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR" Advertised="true"/>
+    <ROW Shortcut="_9AC20A5B0BF94BC6BDC6CC119E8DE07B" Directory_="DesktopFolder" Name="NAVDUR~1|NavDurga Software" Component_="C__0345601E19D342E69AC32E93C272E02A" Target="[#_0345601E19D342E69AC32E93C272E02A]" Hotkey="0" Icon_="_CAF6BD46FC66471CA24073BC4DEC47D8.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR" Advertised="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>

@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AD6B8023-D1A8-407C-87C8-1E389EE432A7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NavdurgaHospital</RootNamespace>
+    <AssemblyName>NavdurgaHospital</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Navdurga.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.Entity, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.Entity.EF5, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Fabric.Plugin, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillDetails.cs" />
+    <Compile Include="BillInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillInput.Designer.cs">
+      <DependentUpon>BillInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillPrint.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillPrint.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Certificate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Certificate.Designer.cs">
+      <DependentUpon>Certificate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CertificateDetails.cs" />
+    <Compile Include="DisabilityCertificate.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DisabilityCertificate.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="DisabilityDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisabilityDetails.Designer.cs">
+      <DependentUpon>DisabilityDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisabilityReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisabilityReportViewer.Designer.cs">
+      <DependentUpon>DisabilityReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSPrescription.cs">
+      <DependentUpon>DSPrescription.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSPrescription.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSPrescription.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FitnessCertificate.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FitnessCertificate.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="FitnessCertificateReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FitnessCertificateReportViewer.Designer.cs">
+      <DependentUpon>FitnessCertificateReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FitnessDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FitnessDetails.Designer.cs">
+      <DependentUpon>FitnessDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenerateOPD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerateOPD.Designer.cs">
+      <DependentUpon>GenerateOPD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InjuryCertificate.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InjuryCertificate.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="InjuryCertificateReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InjuryCertificateReportViewer.Designer.cs">
+      <DependentUpon>InjuryCertificateReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPage.Designer.cs">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrator.Designer.cs">
+      <DependentUpon>Administrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorsScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorsScreen.Designer.cs">
+      <DependentUpon>DoctorsScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavdurgaMainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavdurgaMainPage.Designer.cs">
+      <DependentUpon>NavdurgaMainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPDDetails.cs" />
+    <Compile Include="OpdInputScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpdInputScreen.Designer.cs">
+      <DependentUpon>OpdInputScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenerateBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerateBill.Designer.cs">
+      <DependentUpon>GenerateBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPDReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPDReportViewer.Designer.cs">
+      <DependentUpon>OPDReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prescription.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Prescription.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="PrintBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintBill.Designer.cs">
+      <DependentUpon>PrintBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintOPD.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintOPD.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RadioButtonList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BillReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillReportViewer.Designer.cs">
+      <DependentUpon>BillReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffScreen.Designer.cs">
+      <DependentUpon>StaffScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffSearchScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffSearchScreen.Designer.cs">
+      <DependentUpon>StaffSearchScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UndertreatmentCertificate.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UndertreatmentCertificate.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="InjuryDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InjuryDetails.Designer.cs">
+      <DependentUpon>InjuryDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UndertreatmentCertificateReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UndertreatmentCertificateReportViewer.Designer.cs">
+      <DependentUpon>UndertreatmentCertificateReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UndertreatmentDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UndertreatmentDetails.Designer.cs">
+      <DependentUpon>UndertreatmentDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XRayRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XRayRoom.Designer.cs">
+      <DependentUpon>XRayRoom.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillInput.resx">
+      <DependentUpon>BillInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillPrint.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BillPrint.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Certificate.resx">
+      <DependentUpon>Certificate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisabilityCertificate.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DisabilityCertificate.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisabilityDetails.resx">
+      <DependentUpon>DisabilityDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisabilityReportViewer.resx">
+      <DependentUpon>DisabilityReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FitnessCertificate.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FitnessCertificate.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FitnessCertificateReportViewer.resx">
+      <DependentUpon>FitnessCertificateReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FitnessDetails.resx">
+      <DependentUpon>FitnessDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerateOPD.resx">
+      <DependentUpon>GenerateOPD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InjuryCertificate.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InjuryCertificate.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InjuryCertificateReportViewer.resx">
+      <DependentUpon>InjuryCertificateReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPage.resx">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrator.resx">
+      <DependentUpon>Administrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorsScreen.resx">
+      <DependentUpon>DoctorsScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavdurgaMainPage.resx">
+      <DependentUpon>NavdurgaMainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpdInputScreen.resx">
+      <DependentUpon>OpdInputScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerateBill.resx">
+      <DependentUpon>GenerateBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPDReportViewer.resx">
+      <DependentUpon>OPDReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prescription.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Prescription.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintBill.resx">
+      <DependentUpon>PrintBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintOPD.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintOPD.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="BillReportViewer.resx">
+      <DependentUpon>BillReportViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffScreen.resx">
+      <DependentUpon>StaffScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffSearchScreen.resx">
+      <DependentUpon>StaffSearchScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UndertreatmentCertificate.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>UndertreatmentCertificate.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InjuryDetails.resx">
+      <DependentUpon>InjuryDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UndertreatmentCertificateReportViewer.resx">
+      <DependentUpon>UndertreatmentCertificateReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UndertreatmentDetails.resx">
+      <DependentUpon>UndertreatmentDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XRayRoom.resx">
+      <DependentUpon>XRayRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DSPrescription.xsc">
+      <DependentUpon>DSPrescription.xsd</DependentUpon>
+    </None>
+    <None Include="DSPrescription.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSPrescription.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSPrescription.xss">
+      <DependentUpon>DSPrescription.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLNavdurga\BLNavdurga.csproj">
+      <Project>{4ac75505-5c0d-4382-b98c-edcaca2d3533}</Project>
+      <Name>BLNavdurga</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Navdurga.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

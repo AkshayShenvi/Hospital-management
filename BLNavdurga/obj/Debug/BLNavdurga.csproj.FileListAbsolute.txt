@@ -1,0 +1,10 @@
+C:\Users\Akshay\documents\visual studio 2017\Projects\NavdurgaHospital\BLNavdurga\bin\Debug\BLNavdurga.dll
+C:\Users\Akshay\documents\visual studio 2017\Projects\NavdurgaHospital\BLNavdurga\bin\Debug\BLNavdurga.pdb
+C:\Users\Akshay\documents\visual studio 2017\Projects\NavdurgaHospital\BLNavdurga\bin\Debug\DLNavdurga.dll
+C:\Users\Akshay\documents\visual studio 2017\Projects\NavdurgaHospital\BLNavdurga\bin\Debug\MySql.Data.dll
+C:\Users\Akshay\documents\visual studio 2017\Projects\NavdurgaHospital\BLNavdurga\bin\Debug\DLNavdurga.pdb
+C:\Users\Akshay\documents\visual studio 2017\Projects\NavdurgaHospital\BLNavdurga\bin\Debug\MySql.Data.xml
+C:\Users\Akshay\documents\visual studio 2017\Projects\NavdurgaHospital\BLNavdurga\obj\Debug\BLNavdurga.csprojResolveAssemblyReference.cache
+C:\Users\Akshay\documents\visual studio 2017\Projects\NavdurgaHospital\BLNavdurga\obj\Debug\BLNavdurga.dll
+C:\Users\Akshay\documents\visual studio 2017\Projects\NavdurgaHospital\BLNavdurga\obj\Debug\BLNavdurga.pdb
+C:\Users\Akshay\documents\visual studio 2017\Projects\NavdurgaHospital\BLNavdurga\obj\Debug\BLNavdurga.csproj.CoreCompileInputs.cache
